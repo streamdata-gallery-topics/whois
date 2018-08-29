@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/968-whoapi
 x-kinRank: "7"
 x-alexaRank: "786133"
 tags: Whois
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/whois/master/_listings/whoapi-com/apis.md
 specificationVersion: "0.14"
 apis: []

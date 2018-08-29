@@ -1,0 +1,128 @@
+{
+	"name": "Streadata.io API Gallery - Whois",
+	"description": "This is a repository of whois APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/whois.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://whois.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "DomainTools",
+			"x-api-slug": "domaintools",
+			"description": "DomainTools helps security analysts turn threat data into threat intelligence. We take indicators from your network, including domains and IPs, and connect them with nearly every active domain on the Internet. Those connections inform risk assessments,...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/393-domaintools.jpg",
+			"humanURL": "http://www.domaintools.com",
+			"baseURL": "http://api.domaintools.com//v1/domaintools.com/",
+			"tags": "Whois",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/whois/master/_listings/domaintools/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "RoboWhois",
+			"x-api-slug": "robowhois",
+			"description": "RoboWhois is a cloud-based web service that provides a RESTful API to access WHOIS records and domain related information with a unified, consistent interface.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/912-robowhois.jpg",
+			"humanURL": "http://www.robowhois.com/",
+			"baseURL": "https:///",
+			"tags": "Whois",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/whois/master/_listings/robowhois/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "WhoAPI.com",
+			"x-api-slug": "whoapi-com",
+			"description": "WhoAPI turns raw domain data into machine readable outputs. Making it easy for our clients like Wikipedia, Twitter, King, Google to monitor their websites, protect their brands, invest in better domains and act faster on various domain related threats.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/968-whoapi-com.jpg",
+			"humanURL": "http://whoapi.com",
+			"baseURL": "https:///",
+			"tags": "Whois",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/whois/master/_listings/whoapi-com/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dazzlepod IP Address Lookup",
+			"x-api-slug": "dazzlepod-ip-address-lookup",
+			"description": "",
+			"image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png",
+			"humanURL": "https://dazzlepod.com/ip/",
+			"baseURL": "https:///",
+			"tags": "Whois",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/whois/master/_listings/dazzlepod-ip-address-lookup/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Magnus Health",
+			"x-api-slug": "magnus-health",
+			"description": "Magnus Health is an online software solution for collecting, managing, and securely storing student health information for K-12 schools and colleges.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1894-magnus-health.jpg",
+			"humanURL": "http://magnushealth.com",
+			"baseURL": "https:///",
+			"tags": "Whois",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/whois/master/_listings/magnus-health/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenDNS",
+			"x-api-slug": "opendns",
+			"description": "OpenDNS was founded in 2006 and acquired by Cisco in 2015. Today, more than 12,000 business worldwide rely on our enterprise security products. Cisco Umbrella is a cloud security platform that provides the first line of defense against threats on the i...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20022-opendns.jpg",
+			"humanURL": "https://www.opendns.com/",
+			"baseURL": "https:///",
+			"tags": "Whois",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/whois/master/_listings/opendns/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Whois",
+	"include": [
+		{
+			"name": "DomainTools",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/whois/master/_listings/domaintools/apis.yaml"
+		},
+		{
+			"name": "RoboWhois",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/whois/master/_listings/robowhois/apis.yaml"
+		},
+		{
+			"name": "WhoAPI.com",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/whois/master/_listings/whoapi-com/apis.yaml"
+		},
+		{
+			"name": "Dazzlepod IP Address Lookup",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/whois/master/_listings/dazzlepod-ip-address-lookup/apis.yaml"
+		},
+		{
+			"name": "Magnus Health",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/whois/master/_listings/magnus-health/apis.yaml"
+		},
+		{
+			"name": "OpenDNS",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/whois/master/_listings/opendns/apis.yaml"
+		}
+	]
+}

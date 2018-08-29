@@ -15,6 +15,18 @@ produces:
 consumes:
 - application/json
 paths:
+  /{domain}/whois/parsed:
+    get:
+      summary: Parsed Whois
+      description: The Parsed Whois API provides parsed information extracted from
+        the raw Whois recor
+      operationId: parsedWhois
+      x-api-path-slug: domainwhoisparsed-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Whois
   /{domain}/whois/history/:
     get:
       summary: Whois History

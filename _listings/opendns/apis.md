@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20022-open
 x-kinRank: "8"
 x-alexaRank: "4178"
 tags: Whois
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/whois/master/_listings/opendns/apis.md
 specificationVersion: "0.14"
 apis:

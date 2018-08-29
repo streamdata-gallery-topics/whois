@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: DomainTools
 x-complete: 1
@@ -14,6 +13,35 @@ produces:
 consumes:
 - application/json
 paths:
+  /{domain}/whois/parsed:
+    get:
+      summary: Parsed Whois
+      description: The Parsed Whois API provides parsed information extracted from
+        the raw Whois recor
+      operationId: parsedWhois
+      x-api-path-slug: domainwhoisparsed-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Whois
+  /{domain}/whois/history/:
+    get:
+      summary: Whois History
+      description: Historical Whois records
+      operationId: whoisHistory
+      x-api-path-slug: domainwhoishistory-get
+      parameters:
+      - in: path
+        name: domain
+        description: The domain being requested
+        type: string
+        format: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Whois
   /{domain}/whois:
     get:
       summary: Whois Lookup
@@ -32,4 +60,3 @@ paths:
           description: OK
       tags:
       - Whois
----
